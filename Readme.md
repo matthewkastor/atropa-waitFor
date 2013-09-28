@@ -7,20 +7,12 @@ JavaScript polling functions for quick and sloppy work.
 The current published version:
 
 ```
-npm install atropa-waitFor
-```
-
-The bleeding edge development version:
-
-```
 npm install git+https://github.com/matthewkastor/atropa-waitFor.git#master
 ```
 
 For some packages I simply publish to the `gh-pages` branch since it's easier to
  generate web docs in the repo and push the whole thing. Check the repo
  if you try installing the `master` branch and don't get what you expect.
-
-This package lives at: [https://npmjs.org/package/atropa-waitFor](https://npmjs.org/package/atropa-waitFor)
 
 Source code available at: [https://github.com/matthewkastor/atropa-waitFor/](https://github.com/matthewkastor/atropa-waitFor/)
 
