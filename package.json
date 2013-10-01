@@ -19,7 +19,8 @@
         "buildBrowserModule": "node dev/browserify.js",
         "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
         "lint": "atropa-jslint ./src/atropa-waitFor.js",
-        "srcFormat": "atropa-jsformatter ./src/atropa-waitFor.js ./src/atropa-waitFor.js"
+        "srcFormat": "atropa-jsformatter ./src/atropa-waitFor.js ./src/atropa-waitFor.js",
+        "pretest": "node dev/browserify.js"
     },
     "homepage": "https://github.com/matthewkastor/atropa-waitFor/",
     "bugs": "https://github.com/matthewkastor/atropa-waitFor/issues",
