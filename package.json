@@ -1,6 +1,6 @@
 {
   "name": "atropa-waitFor",
-  "version": "2013.10.22",
+  "version": "2014.1.1",
   "description": "JavaScript polling functions for quick and sloppy work.",
   "main": "./src/atropa-waitFor.js",
   "directories": {
