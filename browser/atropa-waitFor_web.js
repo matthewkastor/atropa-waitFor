@@ -156,7 +156,6 @@ var atropa = require('atropa-header');
  * @returns {Mixed} Returns the default value supplied when the optional
  * argument is undefined or null. Otherwise, the supplied optional argument
  * is returned.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.setAsOptionalArg">tests</a>
  */
 atropa.setAsOptionalArg = function (defaultVal, optionalArg) {
     "use strict";
@@ -237,7 +236,6 @@ atropa.setAsOptionalArg = require('atropa-setAsOptionalArg').setAsOptionalArg;
  *  ☭ Hial Atropa!! ☭
  * @version 20120909
  * @namespace Polling functions for quick and sloppy work.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.waitFor">tests</a>
  */
 atropa.waitFor = {};
 /**
