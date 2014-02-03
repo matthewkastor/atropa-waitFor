@@ -1,6 +1,6 @@
 {
   "name": "atropa-waitFor",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "JavaScript polling functions for quick and sloppy work.",
   "main": "./src/atropa-waitFor.js",
   "directories": {
@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-waitFor.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-waitFor.js ./src/atropa-waitFor.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/ node_modules/atropa-setAsOptionalArg/src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/ node_modules/atropa-setAsOptionalArg/src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-waitFor/",
   "bugs": "https://github.com/matthewkastor/atropa-waitFor/issues",
